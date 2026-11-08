@@ -1,0 +1,9 @@
+{
+  "id": "vault-screen-mask",
+  "name": "Vault Screen Mask",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Zeigt beim Start und nach 60 Sekunden Inaktivität eine PIN-Maske über Obsidian.",
+  "author": "Local",
+  "isDesktopOnly": false
+}

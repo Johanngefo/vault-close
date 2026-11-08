@@ -1,0 +1,37 @@
+.vault-mask-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: var(--background-primary, #202020);
+  color: var(--text-normal, #eee);
+}
+.vault-mask-panel {
+  width: min(100%, 360px);
+  padding: 28px;
+  border: 1px solid var(--background-modifier-border, #555);
+  border-radius: 14px;
+  background: var(--background-secondary, #292929);
+  box-shadow: 0 12px 48px rgba(0,0,0,.35);
+  text-align: center;
+}
+.vault-mask-panel h2 { margin: 0 0 10px; }
+.vault-mask-panel p {
+  margin: 0 0 20px;
+  color: var(--text-muted, #aaa);
+}
+.vault-mask-form { display: grid; gap: 12px; }
+.vault-mask-form input {
+  width: 100%;
+  text-align: center;
+  letter-spacing: .35em;
+  font-size: 1.25em;
+}
+.vault-mask-error {
+  min-height: 1.4em;
+  color: var(--text-error, #e66);
+  font-size: .9em;
+}
